@@ -10,7 +10,7 @@ function init() {
 }
 
 function onKeyDownHandler(e) {
-  const key = parseInt(event.which || event.detail);
+  const key = parseInt(event.location || event.detail);
   // Used for debugging
   // console.log(`${key} pressed`);
   if (key === code[index]) {
